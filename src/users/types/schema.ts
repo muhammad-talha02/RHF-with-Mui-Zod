@@ -14,6 +14,10 @@ export const schema = z.object({
       },
       { message: "Email not valid" }
     ),
+    country:z.object({
+      id:z.number(), 
+      label:z.string()
+    })
 });
 
 
